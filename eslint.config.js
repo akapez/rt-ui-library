@@ -7,8 +7,12 @@ import tseslint from "typescript-eslint";
 export default tseslint.config(
   { ignores: ["dist", "node_modules"] },
   {
-    extends: [js.configs.recommended, ...tseslint.configs.recommended, "prettier",
-      "plugin:storybook/recommended"],
+    extends: [
+      js.configs.recommended,
+      ...tseslint.configs.recommended,
+      "prettier",
+      "plugin:storybook/recommended"
+    ],
     files: ["**/*.{ts,tsx}"],
     languageOptions: {
       ecmaVersion: 2020,
