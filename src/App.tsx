@@ -1,7 +1,9 @@
 function App() {
   return (
     <div>
-      <h1>Storybook UI Library</h1>
+      <h1 className="text-blue-400">
+        React-Typescript UI Library with Storybook
+      </h1>
     </div>
   );
 }
